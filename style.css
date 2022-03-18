@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&display=swap');
+
+body{
+  font-family: 'Noto Sans';
+  font-weight: 900;
+  color: #AAB3C0;
+}
+/*Navbar  */
+header{
+  width: 100%;
+  position: relative;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 10px 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+nav li {
+  float: left;
+}
+
+nav li a {
+  font-family: 'Oswald';
+  display: block;
+  color: rgb(100, 100, 100);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: rgb(9, 61, 204);
+}
+
+.vac{
+  font-family: 'Oswald';
+  display: block;
+  color: rgb(17, 0, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:xx-large;
+}
+
+
+
+/*Primera seccion*/
+.titulo{
+  font-size: 45px;
+  color: #1F3E72;
+}
+.container{
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.subcont{
+  width: 50%;
+  margin-left: 60px;
+  margin-right: 30px;
+}
+.subcont h1{
+
+  top: 220px;
+  width: 320px;
+}
+.subcont p{
+  margin-bottom: 100px;
+  width: 350px;
+  text-align: justify;
+}
+
+.imgsubcont{
+  width: 500px;
+  height: auto;
+  display: flex;
+
+}
+.imgsubcont img{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 500px;
+  left: 200px;
+  font-size: 13px;
+}
+.marg{
+  margin: 10px;
+}
+.gold{
+  color: gold;
+}
+.blue{
+  color: blue;
+}
+.schedule{
+  font-size: 15px;
+  color: #1F3E72;
+  position: absolute;
+  top: 550px;
+  margin: 10px;
+}
+
+.logos{
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos img{
+  width: 160px;
+  height: auto;
+  opacity: 0.3;
+  -webkit-filter: grayscale(1); /* Webkit */
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* W3C */
+  margin: 30px 40px 30px 40px;
+}
+
+form{
+  position: absolute;
+  top: 600px;
+  left: 200px;
+  background: #fff;
+  width: 65%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.43);
+}
+.group{
+  display: inline-block;
+  margin: 25px;
+  padding: auto;
+}
+.group input{
+  width: 200px;
+  height: 40px;
+  color: #3050CE;
+  font-size: 18px;
+  margin-top: 10px;
+  border: none;
+  font-weight: 900;
+}
+
+.group select{
+  width: 200px;
+  height: 40px;
+  color: #3050CE;
+  font-size: 18px;
+  margin-top: 10px;
+  border: none;
+  font-weight: 900;
+}
+.group select option{
+  font-weight: bold;
+}
+
+.form-group i{
+  margin-right: 10px;
+}
+button{
+  position: absolute;
+  top: 40px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn{
+  width: 120px;
+  height: 50px;
+  padding: 10px;
+  color:#3050CE;
+  text-align: center;
+  background: transparent;
+}
+.segundoCont{
+  position: absolute;
+  width: 100%;
+  margin-top: -200px;
+  margin-bottom: 150px;
+  margin-left: 70px;
+}
+.segundoCont p{
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.subSegundo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+.card{
+  width: 250px;
+  height: 320px;
+  border: 2px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.card i{
+  font-size: 35px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.card h2{
+  font-size: 25px;
+  color: #1F3E72;
+  margin: 20px;
+  cursor: default;
+}
+
+.card p{
+  margin: 20px;
+  font-size: 16px;
+  font-weight: lighter;
+  cursor: default;
+}
+.tabulado{
+  margin-top: -95px;
+}
+.preparations{
+  width: 50%;
+  display: inline-block;
+  margin-left: 50px;
+}
+.card-horizontal{
+  width: 350px;
+  height: 50px;
+  border: 2px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-horizontal i{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.card-horizontal h3{
+  font-size: small;
+  color: #1F3E72;
+  font-weight: lighter;
+  padding-left: -10px;
+}
+.contact{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-tab{
+  margin-top: 150px;
+}
+
+.small-card{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 200px;
+  height: 170px;
+  border: 2px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.small-card i{
+  font-size: 25px;
+  color: #3050CE;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.small-card h3{
+  font-size: 25px;
+  color: #3050CE;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: normal;
+}
+
+.small-card p{
+  font-size: 13px;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+.sub{
+  margin-top: 20px;
+}
+.small-card a{
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+.small-card:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  box-shadow: 2px -1px 17px 2px rgba(0,0,0,0.46);
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background: rgba(170,179,192,0.5);
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .text{
+  display: inline-block;
+  width: 200px;
+  padding-left: 30px;
+}
+
+footer .text p{
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+footer .links{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  left: 700px;
+}
+
+footer .column{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+footer .column h2{
+  color: #3050CE;
+}
+
+footer .column ul{
+  padding-top: 10px;
+}
+
+footer .column ul li{
+  margin: 10px;
+  font-weight: normal;
+}
+
+footer .column ul li a{
+  color: #99a5b9;
+  list-style: none;
+}
+
+footer .rights{
+  position: absolute;
+  padding-left: 30px;
+  padding-top: 250px;
+}
+
+footer .policies{
+  position: relative;
+  left: 1000px;
+  top: -10px;
+  margin-bottom: 15px;
+}
+
+footer .policies p{
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+footer .logo{
+  color: #3050CE;
+}
