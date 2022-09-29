@@ -309,7 +309,30 @@ body{
     .acerca-de .info-container h1{font-size: 30px;}
     .acerca-de .info-container p{font-size: 15px;}
 }
-
+/** Nuestros servs **/
+.our-servs{
+    position: relative;
+    width: 80%;
+    height: 100%; 
+    background: url(../img/f4.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+.our-servs .deg-background{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.8);
+}
+.our-servs .ejeZserv{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 /** Nuestros proyectos **/
 .our-projects{
     position: relative;
@@ -343,11 +366,11 @@ body{
     border:2px solid #fff;
     padding:10px;
     text-align: center;
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 .our-projects .container-project .project-title h2{
-    font-size: 40px;
+    font-size: 35px;
     color: #fff;
     font-weight: normal;
 }
@@ -378,7 +401,6 @@ body{
 @media only screen and (max-width:446px){
     .our-projects .container-project .project-title h2{font-size: 30px;}
 }
-
 /** Testimonios **/
 .testimonios{
     width: 100%;
@@ -394,6 +416,7 @@ body{
     font-weight: normal;
     color: var(--black);
     margin-bottom: 10px;
+
 }
 .testimonios .testimonios-title hr{
     width: 60%;
@@ -430,6 +453,7 @@ body{
     border-radius: 20px;
     transition: 0.1s;
     cursor: pointer;
+    text-align: justify;
 }
 .testimonios .box-testimonio .card-testimonio .testimonio-text h4{
     font-size: 30px;
@@ -438,18 +462,22 @@ body{
     text-align: center;
     margin-bottom: 10px;
     transition: 0.1s;
+    text-align: justify;
 }
 .testimonios .box-testimonio .card-testimonio .testimonio-text p{
     font-size: 20px;
     text-align: center;
     line-height: 40px;
     color: var(--black);
+    text-align: justify;
 }
 .testimonios .box-testimonio .card-testimonio .testimonio-text:hover{
     border: 2px solid var(--blue);
+    text-align: justify;
 }
 .testimonios .box-testimonio .card-testimonio .testimonio-text:hover h4{
     color: var(--blue);
+    text-align: justify;
 }
 
 @media only screen and (max-width:890px){
@@ -465,6 +493,12 @@ body{
     width: 100%;
     height: 100%;
 
+}
+.bg-img-lgn{
+    background: url(../img/f.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 .bg-img-idx{
     background: url(../img/f.jpg);
@@ -536,7 +570,7 @@ body{
 .footer .footer-content .footer-title h2{
     font-size: 35px;
     font-weight: 400;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 5px;
 }
@@ -869,15 +903,7 @@ hr {
         text-align: left;
     }
 }
-.img-login{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background:url(../img/f1.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
+
 /***********************Fin Login ***********************/
 
 /*********************** Barra ***********************/
@@ -954,7 +980,7 @@ hr {
     text-align: center;
 }
 .det h2{
-    font-size: 50px;
+    font-size: 35px;
     font-weight: normal;
     color: white;
     margin-bottom: 10px;
@@ -1013,4 +1039,150 @@ hr {
 }
 @media only screen and (max-width:890px){
     .mivision-img img{width: 200px; height: 200px;}
+}
+
+/** Principal ***/
+
+.principal .deg-principal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.principal .ejeZprincipal{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.principal .principal-content{
+    padding-top: 100px;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.principal .principal-content .principal-title{
+    width: 50%;
+    margin: auto;
+    border:2px solid #fff;
+    padding:15px;
+}
+.principal .principal-content .principal-title h2{
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 5px;
+}
+.principal .principal-content .principal-title hr{
+    background: #fff;
+    height: 2px;
+    width: 80%;
+    margin:auto;
+}
+.principal .formulario-content{
+    width: 60%;
+    margin: 50px auto;
+    background: #fff;
+    padding:30px;
+    border-radius: 50px;
+    border: 1.5px solid var(--red);
+}
+.principal .formulario-content #formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.principal .formulario-content #formulario label{
+    font-size: 20px;
+    text-align: center;
+    color: var(--black);
+    margin: 30px 0px 10px 0px;
+}
+.principal .formulario-content #formulario input{
+    width: 90%;
+    height: 40px;
+    margin:auto;
+    border-radius: 24px;
+    outline: none;
+    border:1.5px solid var(--red);
+    text-align: center;
+    font-size: 18px;
+    color: var(--black);
+}
+.principal .formulario-content #formulario textarea{
+    width: 90%;
+    height: 200px;
+    margin:auto;
+    padding: 20px;
+    border-radius: 24px;
+    outline: none;
+    border:1.5px solid var(--red);
+    font-size: 15px;
+    color: var(--black);
+}
+.principal .formulario-content #formulario .send{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.principal .formulario-content #formulario button{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    background: var(--red);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.principal .formulario-content #formulario button:hover{
+    background: var(--blue);
+}
+.principal .formulario-content #formulario .mensaje-form{
+    width: 100%;
+    margin:auto;
+    padding:20px;
+}
+.principal .formulario-content #formulario .mensaje-form p{
+    font-size:19px;
+    color: var(--black);
+    line-height: 35px;
+}
+.principal .principal-text{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background:rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #fff;
+}
+.principal .principal-text p{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+@media only screen and (max-width:900px){
+    .principal .formulario-content{width: 85%; padding:20px;}
+    .principal .formulario-content #formulario input{width: 100%;}
+    .principal .formulario-content #formulario textarea{width: 100%;}
+}
+@media only screen and (max-width:590px){
+    .principal .formulario-content{width: 95%; padding:20px;}
+    .principal .formulario-content #formulario label{font-size: 17px;}
+    .principal .formulario-content #formulario input{width: 100%; font-size: 17px;}
+    .principal .formulario-content #formulario textarea{width: 100%;}
+    .principal .formulario-content #formulario .mensaje-form p{font-size: 17px;}
+    .principal .principal-text{width: 100%; padding: 0px 30px;}
+    .principal .principal-text p{font-size: 17px;}
 }
